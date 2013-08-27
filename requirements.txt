@@ -1,0 +1,6 @@
+MySQL-python==1.2.4
+hiver==0.2.1
+python-memcached==1.53
+simplejson==3.3.0
+thrift==0.9.1
+wsgiref==0.1.2
