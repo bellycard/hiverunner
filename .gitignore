@@ -6,11 +6,11 @@
 # Packages
 *.egg
 *.egg-info
+MANIFEST
 dist
 build
 eggs
 parts
-bin
 var
 sdist
 develop-eggs
