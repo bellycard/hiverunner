@@ -1,1 +1,2 @@
+v1.0.1, 2013-11-19 -- Fixed bug around deleted queries still running
 v1.0.0, 2013-08-27 -- Initial Release

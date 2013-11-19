@@ -91,7 +91,7 @@ def fetch_saved_queries(search_text, db_params):
     cursor = connection.cursor()
     # Query to get saved hive queries out of beeswax
     # The result is a JSON containing the HiveQL Query and meta information
-    cursor.execute("SELECT name, data FROM beeswax_savedquery WHERE name COLLATE latin1_general_cs LIKE '" + search_text + "' AND name NOT LIKE '% %'")
+    cursor.execute("SELECT name, data FROM beeswax_savedquery WHERE name COLLATE latin1_general_cs LIKE '" + search_text + "' AND name NOT LIKE '% %' AND is_trashed = 0")
     return list(list(x) for x in cursor.fetchall())
 
 def main():
