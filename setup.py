@@ -5,7 +5,7 @@ except ImportError:
 
 setup(
     name='hiverunner',
-    version='1.0.0',
+    version='1.0.1',
     author='Belly',
     author_email='hiverunner@bellycard.com',
     packages=['hiverunner',],
